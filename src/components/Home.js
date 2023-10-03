@@ -9,12 +9,10 @@ const Home = () => {
     <div className="home">
       
       <div className="carousel-section">
-        <HomeCarousel />
+      
       </div>
      
-      <Center maw={500} h={100} mx="auto">
-        <h1 id="home-header"> דפי צביעה </h1>
-      </Center>
+    
       <div className="grid-section">
        <GridSection />
       </div>
